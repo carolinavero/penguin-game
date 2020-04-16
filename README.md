@@ -2,5 +2,4 @@
 
 ![Demo](./img/demo-penguin.png)
 
-
-Demo
+[Demo](https://penguin-game.carolinavero.now.sh/)
