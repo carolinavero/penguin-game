@@ -1,101 +1,104 @@
 body {
-        background-color: #ccf5f5;
-    }
-    #gameholder {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-    #title {
-        width: 600px;
-        height: 150px;
-        text-align: center;
-        background: url('img/penguin_title.png') no-repeat;
-        margin: 0 auto;
-    }
-    .penguin {
-        width: 200px;
-        height: 200px;
-        float: left;
-    }
-    .penguin:hover {
-        cursor: pointer;
-    }
-    .penguin1 {
-        background-image:url('img/mound_1.png');
-    }
-    .penguin1:hover {
-        background-image: url('img/mound_1_hover.png');
-    }
-    .penguin2 {
-        background-image:url('img/mound_2.png');
-    }
-    .penguin2:hover {
-        background-image: url('img/mound_2_hover.png');
-    }
-    .penguin3 {
-        background-image:url('img/mound_3.png');
-    }
-    .penguin3:hover {
-        background-image: url('img/mound_3_hover.png');
-    }
-    .penguin4 {
-        background-image:url('img/mound_4.png');
-    }
-    .penguin4:hover {
-        background-image: url('img/mound_4_hover.png');
-    }
-    .penguin5 {
-        background-image:url('img/mound_5.png');
-    }
-    .penguin5:hover {
-        background-image: url('img/mound_5_hover.png');
-    }
-    .penguin6 {
-        background-image:url('img/mound_6.png');
-    }
-    .penguin6:hover {
-        background-image: url('img/mound_6_hover.png');
-    }
-    .penguin7 {
-        background-image:url('img/mound_7.png');
-    }
-    .penguin7:hover {
-        background-image: url('img/mound_7_hover.png');
-    }
-    .penguin8 {
-        background-image:url('img/mound_8.png');
-    }
-    .penguin8:hover {
-        background-image: url('img/mound_8_hover.png');
-    }
-    .yeti {
-        width: 200px;
-        height: 200px;
-        float: left;
-        cursor: pointer;
-        background-image:url('img/mound_9.png');
-    }
-    .yeti:hover {
-        background-image:url('img/mound_9_hover.png');
-    }
-    button {
-        font-size: 30px;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 15px;
-        border-radius: 10px;
-        padding: 10px 25px;
-        background-color: #778f8f;
-        color: #fff;
-        box-shadow: 4px 6px 3px #c0e6e6;
-        border: none;
-        font-weight: lighter;
-        text-transform: uppercase;
-        position: relative;
-        display: flex;
-    }
-    button:hover {
-        cursor: pointer;
-    }
+    background-color: #ccf5f5;
+    display: flex;
+}
+#gameholder {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#title {
+    width: 600px;
+    max-width: 100%;
+    height: 150px;
+    text-align: center;
+    background: url('img/penguin_title.png') no-repeat;
+    margin: 0 auto;
+}
+.penguin {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.penguin:hover {
+    cursor: pointer;
+}
+.penguin1 {
+    background-image:url('img/mound_1.png');
+}
+.penguin1:hover {
+    background-image: url('img/mound_1_hover.png');
+}
+.penguin2 {
+    background-image:url('img/mound_2.png');
+}
+.penguin2:hover {
+    background-image: url('img/mound_2_hover.png');
+}
+.penguin3 {
+    background-image:url('img/mound_3.png');
+}
+.penguin3:hover {
+    background-image: url('img/mound_3_hover.png');
+}
+.penguin4 {
+    background-image:url('img/mound_4.png');
+}
+.penguin4:hover {
+    background-image: url('img/mound_4_hover.png');
+}
+.penguin5 {
+    background-image:url('img/mound_5.png');
+}
+.penguin5:hover {
+    background-image: url('img/mound_5_hover.png');
+}
+.penguin6 {
+    background-image:url('img/mound_6.png');
+}
+.penguin6:hover {
+    background-image: url('img/mound_6_hover.png');
+}
+.penguin7 {
+    background-image:url('img/mound_7.png');
+}
+.penguin7:hover {
+    background-image: url('img/mound_7_hover.png');
+}
+.penguin8 {
+    background-image:url('img/mound_8.png');
+}
+.penguin8:hover {
+    background-image: url('img/mound_8_hover.png');
+}
+.yeti {
+    width: 200px;
+    height: 200px;
+    float: left;
+    cursor: pointer;
+    background-image:url('img/mound_9.png');
+}
+.yeti:hover {
+    background-image:url('img/mound_9_hover.png');
+}
+button {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-color: #778f8f;
+    color: #fff;
+    box-shadow: 4px 6px 3px #c0e6e6;
+    border: none;
+    font-weight: lighter;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+}
+button:hover {
+    cursor: pointer;
+}

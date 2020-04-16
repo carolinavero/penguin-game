@@ -18,7 +18,6 @@ function showYeti(yeti) {
 }
 
 function showPenguin() {
-
     var random = Math.floor(Math.random() * 9) + 0;
     var imageBg =
         [
@@ -43,6 +42,5 @@ function showPenguin() {
 
 }
 
-Array.from(allPenguins).forEach(e => e.onclick = showPenguin);
-
+allPenguins.forEach(e => e.onclick = showPenguin)
 replayButton.addEventListener('click', resetGame);
